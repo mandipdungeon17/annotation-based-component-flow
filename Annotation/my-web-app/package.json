@@ -1,0 +1,16 @@
+{
+  "name": "my-web-app",
+  "version": "1.0.0",
+  "description": "My Web App",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

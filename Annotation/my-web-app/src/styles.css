@@ -1,0 +1,60 @@
+/* File: /my-web-app/src/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+#response {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    white-space: pre-wrap;
+}
+
+.log-container {
+    border-top: 2px solid #333;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.component {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0056b3;
+    margin-top: 10px;
+}
+
+.class-entry {
+    padding-left: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.log-entry {
+    padding-left: 40px;
+    margin: 5px 0;
+    border-left: 2px solid #ccc;
+    padding: 5px;
+    color: #444;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.log-entry div {
+    margin: 3px 0;
+}
